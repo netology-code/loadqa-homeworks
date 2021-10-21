@@ -10,9 +10,9 @@
 
 
 
-1. [Лекция 1]()
+1. [Лекция 1](homework_lecture1.md)
 
-2. []()
+2. [Лекция 2](homework_lecture2.md)
 
 3. []()
 
