@@ -14,8 +14,8 @@
 
 2. [Лекция 2](homework_lecture2.md)
 
-3. []()
+3. [Лекция 3](homework_lecture3.md)
 
-4. []()
+4. [Лекция 4](homework_lecture4.md)
 
-5. []()
+5. [Лекция 5](homework_lecture5.md)
