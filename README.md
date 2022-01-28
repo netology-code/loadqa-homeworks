@@ -10,12 +10,12 @@
 
 
 
-1. [Лекция 1](homework_lecture1.md)
+1. [Введение в тестирование производительности](homework_lecture1.md)
 
-2. [Лекция 2](homework_lecture2.md)
+2. [Подготовка стенда нагрузочного тестирования](homework_lecture2.md)
 
-3. [Лекция 3](homework_lecture3.md)
+3. [Создание нагрузочных тестов WEB](homework_lecture3.md)
 
-4. [Лекция 4](homework_lecture4.md)
+4. [Проведение нагрузочного тестирования DB](homework_lecture4.md)
 
-5. [Лекция 5](homework_lecture5.md)
+5. [Подготовка отчета о тестирование. Завершение проекта. ](homework_lecture5.md)
