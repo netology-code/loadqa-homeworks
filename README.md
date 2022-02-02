@@ -12,7 +12,7 @@
 
 1. [Введение в тестирование производительности](homework_lecture1.md)
 
-2. [Подготовка стенда нагрузочного тестирования](homework_lecture2.md)
+2. [Подготовка стенда нагрузочного тестирования](https://github.com/netology-code/loadqa-homeworks/blob/main/2.Load%20environment/homework_lecture2.md)
 
 3. [Создание нагрузочных тестов WEB](homework_lecture3.md)
 
