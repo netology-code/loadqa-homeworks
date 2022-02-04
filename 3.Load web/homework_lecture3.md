@@ -9,10 +9,7 @@
 Сценарий:
 1. Открыть блог https://qamidhl.herokuapp.com/
 2. Авторизоваться под пользователем:
-    qamidl1/EtN9Wn!6Tl*mze5(U@h4b%1w
-    qamidl2/N$X4Exr)o&Hm(!YrEQoaGWd&
-    qamidl3/N$X4Exr)o&Hm(!YrEQoaGWd&
-    qamidl4/*9XnQ*j4kg)C9Zh2Jo4Yw8gA
+    qamidl1/ ******
 3. Открыть пост https://qamidhl.herokuapp.com/?p=1
 4. Добавить комментарий заполнив поле Comment
 
