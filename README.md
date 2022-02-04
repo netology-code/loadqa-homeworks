@@ -10,7 +10,7 @@
 
 
 
-1. [Введение в тестирование производительности](homework_lecture1.md)
+1. [Введение в тестирование производительности](https://github.com/netology-code/loadqa-homeworks/blob/main/1/homework_lecture1.md)
 
 2. [Подготовка стенда нагрузочного тестирования](https://github.com/netology-code/loadqa-homeworks/blob/main/2.Load%20environment/homework_lecture2.md)
 
