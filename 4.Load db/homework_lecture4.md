@@ -30,6 +30,7 @@
 
 <details>
   <summary>Подсказка</summary>
-  Используйте примеры из  папки [./jmeter_db](./jmeter_db) для начальной настройки мониторинга.
+  
+  Используйте примеры из папки [./jmeter](./jmeter) для запуска теста. А также библиотеку [mysql-connector-java-8.0.28.jar](./jmeter/mysql-connector-java-8.0.28.jar) для подключения к mysql. Если не удалось скачать из интернета.
 </details>
 
