@@ -6,4 +6,7 @@
   <summary>Подсказка</summary>
   
   Используйте примеры из папки [./report](./report).
+
+  https://www.webperformance.com/load-testing-tools/reports/loadtestreport/
+  
 </details>
