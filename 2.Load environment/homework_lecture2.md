@@ -19,11 +19,15 @@
 ### Дополнительная информация
 - https://grafana.com/docs/grafana/latest/getting-started/ - инструкция по работе систем мониторинга с `grafana`;
 
+
+
 <details>
   <summary>Подсказка</summary>
 
   Используйте примеры из  папки [./samples](./samples) для начальной настройки мониторинга.
 </details>
+
+
 
 ### Критерии оценки
 
