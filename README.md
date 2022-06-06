@@ -18,4 +18,4 @@
 
 4. [Проведение нагрузочного тестирования DB](https://github.com/mshegolev/loadqa-homeworks/blob/main/4.Load%20db/homework_lecture4.md)
 
-5. [Подготовка отчета о тестировании. Завершение проекта. ](https://github.com/mshegolev/loadqa-homeworks/blob/main/5.Metrics/homework_lecture5.md)
+5. [Подготовка отчета о тестировании. Завершение проекта. ](https://github.com/netology-code/loadqa-homeworks/blob/main/5.Metrics/homework_lecture5.md)
