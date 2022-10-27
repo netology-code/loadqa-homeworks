@@ -42,28 +42,27 @@
     6. Сделать скриншот о выполнении сценария с помощью `View Results Tree`.
     7. Сделать скриншот стандартного отчёта JMeter о проведённом тестировании.
     
-#### 3.  Работа с `jmeter`:   
-    - Настроить запись метрик в систему мониторинга
-    - Запустить тест в соответствии с разработанным профилем нагрузки
-    - Сделать скриншот полученных результатов из системы монитронига
+#### 3.  Работа с `JMeter`
+    1. Настроить запись метрик в систему мониторинга.
+    2. Запустить тест по разработанному профилю нагрузки.
+    3. Сделать скриншот полученных результатов из системы монитронига.
 
-#### 4.  Для проверки:
-    - запушить репозиторий с конфигурацией, дашбордами и скриншотами на GitHub;
-    - ссылку на репозиторий отправить на проверку.
+#### 4.  Отправка задания на проверку
+   Нужно запушить репозиторий с конфигурацией, дашбордами и скриншотами на GitHub и отправить на проверку ссылку на репозиторий.
 
 ### Дополнительная информация
-- [Инструкция по работе с `BlazeMeter`](https://www.blazemeter.com/).
-- [Blazemeter chrome extention](https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi) — расширение Chrome browser для записи тестов c помощью `blazemeter`.
-- [Инструкция по работе с `jmeter`](https://jmeter.apache.org/).
-- [Jmeter Test Script Recorder](https://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.html) — инструкция по записи тестов с помощью `jmeter`.
-- [Download jmeter](https://jmeter.apache.org/download_jmeter.cgi) — дистрибутивы `jmeter`.
-- [Install plugin](https://jmeter-plugins.org/wiki/PluginsManager/) — установка плагинов в `jmeter`.
+1. [Инструкция по работе с `BlazeMeter`](https://www.blazemeter.com/).
+2. [BlazeMeter Chrome extention](https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi) — расширение Chrome browser для записи тестов c помощью `BlazeMeter`.
+3. [Инструкция по работе с `jmeter`](https://jmeter.apache.org/).
+4. [Jmeter Test Script Recorder](https://jmeter.apache.org/usermanual/jmeter_proxy_step_by_step.html) — инструкция по записи тестов с помощью `JMeter`.
+5. [Download JMeter](https://jmeter.apache.org/download_jmeter.cgi) — дистрибутивы `JMeter`.
+6. [Install plugin](https://jmeter-plugins.org/wiki/PluginsManager/) — установка плагинов в `JMeter`.
 
 
 <details>
   <summary>Подсказка.</summary>
 
   Используйте примеры из папки [./jmeter](./jmeter) для запуска теста.
-  Если не получилось установить или возникнут какие-то трудности, можете воспользоваться инструкцией install_influxdb_jmeter.docx в папке JMeter.
+  Если возникнут трудности при установке, можете воспользоваться инструкцией install_influxdb_jmeter.docx в папке JMeter.
 </details>
 
