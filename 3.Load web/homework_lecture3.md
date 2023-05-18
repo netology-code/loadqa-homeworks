@@ -14,7 +14,7 @@
 Провести раунд тестирования.
 Найти предел производительности сайта.
 Сценарий:
-1. Открыть блог [http://qamidhl.x10.mx/wp/](http://qamidhl.x10.mx/wp/)
+1. Открыть блог [http://cw24054-wordpress-zu0z0.tw1.ru/](http://cw24054-wordpress-zu0z0.tw1.ru/)
 2. Авторизоваться под пользователем:
     qamidl1/ ******
 3. Открыть пост [http://qamidhl.x10.mx/wp/?p=1](http://qamidhl.x10.mx/wp/?p=1)
