@@ -16,8 +16,8 @@
 Сценарий:
 1. Открыть блог [http://cw24054-wordpress-zu0z0.tw1.ru/](http://cw24054-wordpress-zu0z0.tw1.ru/)
 2. Авторизоваться под пользователем:
-    qamidl1/ ******
-3. Открыть пост [http://qamidhl.x10.mx/wp/?p=1](http://qamidhl.x10.mx/wp/?p=1)
+    qamidl1/ S6pJwG(7uCeH@A!F1IpJoDat
+3. Открыть пост [Привет Мир!](http://cw24054-wordpress-zu0z0.tw1.ru/2022/12/11/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/)
 4. Добавить комментарий заполнив поле Comment
 
 ### В рамках домашнего задания вам нужно:
