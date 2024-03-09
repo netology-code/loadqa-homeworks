@@ -24,7 +24,7 @@
 
 ### Инструкция к заданию
 
-1. Сделайте копию [шаблона](https://docs.google.com/document/d/1Md8ckYIpB8oKHiQw0qUmPeFsMYfzBNEK5T8uf_xCvnQ/edit) для домашнего задания себе на Google Disk.
+1. Сделайте копию [шаблона](https://u.netology.ru/backend/uploads/lms/content_assets/file/279/Ioadqa_%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD_%D0%B2_%D0%B4%D0%B7_%D0%BA_%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B8_1.docx) для домашнего задания себе на Google Disk.
 2. В названии файла введите корректное название лекции, ваши фамилию и имя.
 3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в интернете, у кого есть ссылка». [Ссылка на инструкцию](https://support.google.com/docs/answer/2494822?hl=ru&co=GENIE.Platform%3DDesktop), как предоставить доступ к файлам и папкам на Google Drive.
 4. Скопируйте текст задания в свой документ.
