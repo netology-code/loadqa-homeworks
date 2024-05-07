@@ -29,8 +29,7 @@
    - склонировать репозиторий с сайтом кинотеатра
     ```bash
     git clone https://github.com/mshegolev/congenial-potato.git
-    ```
-    ``` bash  
+
     cd congenial-potato
     ```
     
@@ -38,6 +37,7 @@
 
     ```bash   
     cd cinema
+    
     docker-compose up -d
     ```
 - Убедиться что сайт кинотеатра доступен по ссылке http://localhost:8000/
