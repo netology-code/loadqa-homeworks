@@ -26,7 +26,7 @@
 - прислать скриншоты получившейся нагрузки
   
 #### 2.  Работа с `jmeter`:
-   - склонировать репозиторий с сайтом кинотеатра
+- склонировать репозиторий с сайтом кинотеатра
     ```bash
     git clone https://github.com/mshegolev/congenial-potato.git
 
@@ -34,7 +34,6 @@
     ```
     
 - Запустить сайт cinema_web и установить его [см. инструкцию по установке](https://github.com/mshegolev/congenial-potato/)
-
     ```bash   
     cd cinema
     
