@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  cadvisor:
+    image: google/cadvisor
+    container_name: cadvisor
+    restart: always
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /data/docker/:/var/lib/docker:ro
+    command:
+      - '--housekeeping_interval=10s'
+      - '-allow_dynamic_housekeeping=false'
+      - '--docker_only=true'
+    ports:
+      - 8081:8080
+
+  influxdb:
+    image: influxdb:1.8.10-alpine
+    container_name: influxdb
+    restart: always
+    environment:
+      - INFLUXDB_DB=influx
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=admin
+    ports:
+      - "8086:8086"
+    volumes:
+      - ./:/imports
+      - influxdb_data:/var/lib/influxdb
+
+  prometheus:
+    image: prom/prometheus:v2.32.1
+    container_name: prometheus
+    restart: always
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:8.3.3
+    container_name: grafana
+    restart: always
+    depends_on:
+      - prometheus
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    links:
+      - prometheus
+      - influxdb
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_prom_data:/var/lib/grafana
+      - ./grafana/provisioning/:/etc/grafana/provisioning/
+      - ./grafana/dashboards/:/var/lib/grafana/dashboards/ # https://grafana.com/grafana/dashboards/1860
+      
+volumes:
+  grafana_prom_data: {}
+  prometheus_data: {}
+  influxdb_data: {}
